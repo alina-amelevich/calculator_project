@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
 #calc-container {
     /* border: 1px solid green; */
     border-radius: 13px;
@@ -12,7 +14,7 @@
     background-color: #71A8BD;
     background-image: linear-gradient(#71A8BD, #71A8BD, #489DBD);
 
-    font-family: sans-serif;
+    font-family: 'Open Sans', sans-serif;
     color: white;
     font-weight: 300;
 }
