@@ -1,5 +1,5 @@
 #calc-container {
-    border: 1px solid green;
+    /* border: 1px solid green; */
     border-radius: 13px;
     height: 500px;
     width: 300px;
@@ -11,7 +11,7 @@
     box-sizing: border-box;
     background-color: #71A8BD;
     background-image: linear-gradient(#71A8BD, #71A8BD, #489DBD);
-    
+
     font-family: sans-serif;
     color: white;
     font-weight: 300;
@@ -20,7 +20,7 @@
 #display-panel {
     flex: 2.4 2;
     background-color: #022533;
-    border: 1px solid violet;
+    /* border: 1px solid violet; */
 }
 #display-panel span{
     display: block;
@@ -29,7 +29,7 @@
     left: 60%;
     padding: 5px;
     font-size: 60px;
-    border: solid 1px orange;
+    /* border: solid 1px orange; */
 }
 
 .lines {
@@ -50,13 +50,20 @@
     border-bottom: solid rgb(118, 178, 202) 1px;
 }
 
+#calc-container .lines .buttons:hover, .lines .buttons:active, .lines .buttons:focus {
+    cursor: pointer;
+    /* background-color: rgba(19, 30, 37, 0.075); */
+    background-color: rgba(20, 43, 53, 0.096);
+    filter: saturate(120%);
+}
+
 .lines .buttons span{
     position: relative;
     display: block;
     top: 30%;
     bottom: auto;
     font-size: 20px;
-    border: solid red 1px;
+    /* border: solid red 1px; */
 }
 
 .lines:last-child .buttons {
@@ -65,7 +72,7 @@
 .lines .buttons:last-child {
     border-right: none;
 }
-#line-5 #button-equally {
+.lines:last-child .buttons:last-child {
     flex: 2 2;
     background-color: #489DBD;
 }
