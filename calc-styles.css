@@ -1,9 +1,8 @@
 
 #calc-container {
-    /* border: 1px solid green; */
-    border-radius: 13px;
-    height: 500px;
-    width: 300px;
+    /*!*/border-radius: 13px; 
+    /*!*/height: 500px;
+    /*!*/width: 300px;
     margin-left: auto;
     margin-right: auto;
     display: flex;
@@ -21,7 +20,6 @@
 #display-panel {
     flex: 2.4 2;
     background-color: #022533;
-    /* border: 1px solid violet; */
 }
 #display-panel span{
     user-select: all; /* При щелчке в любом месте span-a выделится весь Span c числ. знач-ем */
@@ -29,9 +27,8 @@
     position: relative;
     top: 50%;
     left: 60%;
-    padding: 5px;
-    font-size: 60px;
-    /* border: solid 1px orange; */
+    /*!*/padding: 5px;
+    /*!*/font-size: 60px;
 }
 
 #calc-container .lines {
@@ -50,15 +47,14 @@
     padding: 0;
     flex: 1 1;
     text-align: center;
-    border-right: solid rgb(118, 178, 202) 1px;
-    border-bottom: solid rgb(118, 178, 202) 1px;
+    /*?*/border-right: solid rgb(118, 178, 202) 1px;
+    /*?*/border-bottom: solid rgb(118, 178, 202) 1px;
 }
 
 #calc-container .lines .buttons:hover, .lines .buttons:active, .lines .buttons:focus {
     cursor: pointer;
-    /* background-color: rgba(19, 30, 37, 0.075); */
     background-color: rgba(20, 43, 53, 0.096);
-    filter: saturate(120%);
+    filter: saturate(120%); /* Изменение насыщенности */
 }
 
 .lines .buttons span{
@@ -66,7 +62,7 @@
     display: block;
     top: 30%;
     bottom: auto;
-    font-size: 20px;
+    /*?*/font-size: 20px;
     /* border: solid red 1px; */
 }
 
