@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 
 #calc-container {
     /* border: 1px solid green; */
@@ -14,9 +13,9 @@
     background-color: #71A8BD;
     background-image: linear-gradient(#71A8BD, #71A8BD, #489DBD);
 
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
     color: white;
-    font-weight: 300;
+    font-weight: 200;
 }
 
 #display-panel {
@@ -34,13 +33,14 @@
     /* border: solid 1px orange; */
 }
 
-.lines {
+#calc-container .lines {
     margin: 0;
     padding: 0;
     list-style-type: none;
     flex: 1 1;
     display: flex;
     flex-direction: row;
+    font-weight: 300;
 }
 
 .lines .buttons {
